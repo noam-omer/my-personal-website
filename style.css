@@ -1,4 +1,16 @@
+h1,h2 {
+    text-align: center;
+}
+h2 {
+    color:
+}
 body {
     background: black;
-    color: white;
+    color: #FFFDD0;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
