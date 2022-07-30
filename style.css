@@ -1,27 +1,38 @@
-h1,h2 {
-    text-align: center;
-}
-h2 {
-    color:
-    padding: 8px;
-}
 body {
     background: black;
     color: #FFFDD0;
 }
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+.navbar{
+    width: 100%
+    background-color: black;
+    overflow: auto;
 }
 
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: palegoldenrod;
+    text-decoration: none;
+    font-size: 20px;
+    width: 22%
+  
 }
 
 a:visited{
     color:paleturquoise
+}
+
+/*responsive text for mobile and desktop*/
+@media (min-width: 0px) {
+    p { font-size: 1rem; }
+}
+
+@media (min-width: 400px){
+    p { font-size: calc(1rem + 1vw);
+    }
+}
+
+@media (min-width: 1001px){
+    p { font-size: 1.75rem;}
 }

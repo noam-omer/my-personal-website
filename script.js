@@ -1,8 +1,6 @@
-/*
-const h2 = document.createElement('h2');
-h2.textContent = 'This content added by Javascript';
-document.querySelector('body').appendChild(h2);
-*/
+
+
+//invasive species alerts
 const invasiveButton = document.getElementById('submitButton');
 invasiveButton.addEventListener('click', function() {
   if(document.getElementById('knotweed').checked)
